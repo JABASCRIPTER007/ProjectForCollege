@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+}
+
+
+ul {
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    list-style-type: none;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    font-size: 50px;
+}
+
+.BackForHeader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    background: gray;
+}
+
+@media (max-width: 991px) {
+
+    ul li a {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 570px) {
+
+    ul li a {
+        font-size: 20px;
+    }
+}
+
+
+@media (max-width: 450px) {
+    ul li a{
+        padding: 0px;
+    }
+}

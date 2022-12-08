@@ -1,0 +1,20 @@
+.BackCenter {
+    text-align: center;
+}
+
+.CollegePhoto {
+    padding: 20px;
+}
+
+.CollegePhoto img {
+    max-width: 60%;
+}
+
+
+
+@media screen and (max-width: 440px) {
+
+    .CollegePhoto {
+        padding: 0px;
+    }
+}
